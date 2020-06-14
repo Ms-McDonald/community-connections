@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Ms.McDonald's - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Ms. McD's Classroom</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading mt-4">
+        Classes
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span><b>Grade 10</b><br>Honors Web Design</span>
+        </a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span><b>Grade 11</b><br>Honors Advanced Web Design</span>
+        </a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span><b>Grade 12</b><br>NJIT IS219<br>Adv. Web Development</span>
+        </a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading mt-4">
+        Resources
+      </div>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Web Design Resources</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">For Development:</h6>
+            <a class="collapse-item" href="login.html">W3Schools</a>
+            <a class="collapse-item" href="register.html">Bootstrap</a>
+            <a class="collapse-item" href="forgot-password.html">Codecademy</a>
+            <div class="collapse-divider"></div>
+            <h6 class="collapse-header">For Designing:</h6>
+            <a class="collapse-item" href="404.html">Unsplash</a>
+            <a class="collapse-item" href="blank.html">Font Awesome</a>
+            <div class="collapse-divider"></div>
+            <h6 class="collapse-header">For Inspiration:</h6>
+            <a class="collapse-item" href="404.html">Dribbble</a>
+            <a class="collapse-item" href="blank.html">Awwwards</a>
+          </div>
+        </div>
+      </li>
+
+      <!-- Nav Item - Charts -->
+      <li class="nav-item">
+        <a class="nav-link" href="charts.html">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Google Classroom</span></a>
+      </li>
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+        <a class="nav-link" href="tables.html">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Genesis</span></a>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline mt-4">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!-- Page Heading -->
+          <div class="d-flex align-items-center">
+            <h1 class="h3 pt-1 text-gray-800">Dashboard</h1>
+          </div>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">3+</span>
+              </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header">
+                  Alerts Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-primary">
+                      <i class="fas fa-file-alt text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">September 12, 2019</div>
+                    <span class="font-weight-bold">Welcome to a new year of school!</span>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-success">
+                      <i class="fas fa-spider text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">October 7, 2019</div>
+                    We will be having a special Halloween web design competition this month!
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="mr-3">
+                    <div class="icon-circle bg-warning">
+                      <i class="fas fa-exclamation-triangle text-white"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="small text-gray-500">December 15, 2019</div>
+                    Grades Alert: It's almost the end of the semester. Make sure you have all of your work handed in.
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">6</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+                <h6 class="dropdown-header">
+                  Message Center
+                </h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+                    <div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to the web design pathway program!</div>
+                    <div class="small text-gray-500">Ms. McDonald</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="img/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="">
+                    <div class="status-indicator"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">There will be a computer club meeting this Thursday after school.</div>
+                    <div class="small text-gray-500">Mr. Gadaleta</div>
+                  </div>
+                </a>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+                    <div class="status-indicator bg-warning"></div>
+                  </div>
+                  <div>
+                    <div class="text-truncate">Please remember to submit your final project. Contact me if you have any questions!</div>
+                    <div class="small text-gray-500">Ms. McDonald</div>
+                  </div>
+                </a>
+                <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+              </div>
+            </li>
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <div class="row d-flex justify-content-center mb-4">
+            <div class="col-10">
+              Hi there! You can use this website to receive all of the news from our
+              web design classes. Be sure to check the notifications, message center,
+              and news feed to stay up to date with what we are doing in our classes.
+            </div>
+          </div>
+
+          <!-- Content Row -->
+
+          <div class="row">
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-6">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Grading Policy</h6>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Dropdown Header:</div>
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="chart-pie pt-4 pb-2">
+                    <canvas id="myPieChart"></canvas>
+                  </div>
+                  <div class="mt-4 text-center small">
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-primary"></i> Projects
+                    </span>
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-success"></i> Participation
+                    </span>
+                    <span class="mr-2">
+                      <i class="fas fa-circle text-info"></i> Tests
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-xl-8 col-lg-6">
+              <!-- Project Card Example -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Major Projects</h6>
+                </div>
+                <div class="card-body">
+                  <h4 class="small font-weight-bold">Product Page <span class="float-right">Sophomore Year</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Professional Portfolio <span class="float-right">Sophomore Year &#8594; Senior Year</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">SLE Project <span class="float-right">Junior Year &#8594; Senior Year</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">JSON Photo Gallery <span class="float-right">Senior Year</span></h4>
+                  <div class="progress mb-4">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h4 class="small font-weight-bold">Vue.js Movie Page <span class="float-right">Senior Year</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Content Column -->
+            <div class="col-lg-6 mb-4">
+
+              <!-- Color System -->
+              <div class="row">
+                <h2 class="color-blue pl-3">Honorable Mentions!</h2>
+                <div class="col-lg-12 mb-4">
+                  <div class="card bg-primary text-white shadow">
+                    <div class="card-body">
+                      Student Name
+                      <div class="text-white small">Project Title &nbsp; &#9900; &nbsp; <a href="#" class="light-link">Project Link</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <div class="card bg-success text-white shadow">
+                    <div class="card-body">
+                      Student Name
+                      <div class="text-white small">Project Title &nbsp; &#9900; &nbsp; <a href="#" class="light-link">Project Link</a></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <div class="card bg-info text-white shadow">
+                    <div class="card-body">
+                      Student Name
+                      <div class="text-white small">Project Title &nbsp; &#9900; &nbsp; <a href="#" class="light-link">Project Link</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-6 mb-4">
+            <h2 class="color-blue pl-3">News Feed</h2>
+              <!-- Illustrations -->
+              <div class="card shadow mb-4 overflow-auto m-height">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Information Post #1</h6>
+                  <h6 class="mt-2 mb-0 small text-secondary">Date Posted: 1/2/20</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="">
+                  </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Information Post #2</h6>
+                  <h6 class="mt-2 mb-0 small text-secondary">Date Posted: 2/3/20</h6>
+                </div>
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada fames ac turpis egestas sed tempus urna. Aliquet bibendum enim facilisis gravida neque convallis a cras. Ac felis donec et odio pellentesque diam volutpat. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Sit amet consectetur adipiscing elit ut. Posuere urna nec tincidunt praesent semper feugiat. Arcu dui vivamus arcu felis bibendum ut tristique et. Vestibulum lorem sed risus ultricies tristique.</p>
+
+                  <p>Tincidunt ornare massa eget egestas purus viverra accumsan in. Lectus nulla at volutpat diam ut venenatis tellus in. Aliquam id diam maecenas ultricies mi. Sit amet volutpat consequat mauris nunc. Id eu nisl nunc mi ipsum faucibus vitae. In est ante in nibh mauris cursus mattis molestie. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. Tempor orci eu lobortis elementum nibh tellus molestie. Suspendisse sed nisi lacus sed. Sagittis eu volutpat odio facilisis mauris.</p>
+
+                  <p>Egestas erat imperdiet sed euismod nisi porta lorem. Ornare aenean euismod elementum nisi. Tincidunt id aliquet risus feugiat in ante. A lacus vestibulum sed arcu non odio euismod. Dui ut ornare lectus sit amet est placerat in egestas. Sit amet dictum sit amet. Tristique nulla aliquet enim tortor at. Laoreet sit amet cursus sit amet dictum sit amet. Et tortor at risus viverra adipiscing at. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. In ante metus dictum at tempor commodo. Ornare arcu dui vivamus arcu. Auctor augue mauris augue neque. Velit dignissim sodales ut eu sem integer vitae justo. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.</p>
+
+                  <p>Odio ut sem nulla pharetra diam. Viverra nam libero justo laoreet sit amet. Quis varius quam quisque id diam vel quam. Adipiscing at in tellus integer feugiat scelerisque. Non consectetur a erat nam at lectus urna duis convallis. Quisque non tellus orci ac auctor augue mauris. Aenean pharetra magna ac placerat vestibulum. Sit amet justo donec enim diam vulputate. Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Viverra aliquet eget sit amet tellus cras adipiscing. Ornare arcu dui vivamus arcu felis bibendum ut tristique. Semper eget duis at tellus at urna condimentum. Lorem mollis aliquam ut porttitor. Egestas pretium aenean pharetra magna ac. Ipsum consequat nisl vel pretium lectus quam id leo in. Amet dictum sit amet justo donec enim diam. Augue mauris augue neque gravida in. Risus at ultrices mi tempus imperdiet nulla.</p>
+
+                  <p>Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Tempus quam pellentesque nec nam aliquam sem. Ornare arcu odio ut sem nulla pharetra diam sit amet. Diam vel quam elementum pulvinar etiam non. Potenti nullam ac tortor vitae purus faucibus ornare. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Eu facilisis sed odio morbi quis commodo odio. Rhoncus mattis rhoncus urna neque viverra justo.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Ms. McDonald 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
